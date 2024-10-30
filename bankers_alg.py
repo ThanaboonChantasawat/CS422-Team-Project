@@ -53,5 +53,4 @@ def main():
 
     print(f"Safe Sequence: {' -> '.join(f'P{p+1}' for p in safe_sequence)}")
 
-if __name__ == '__main__':
-    main()
+main()
